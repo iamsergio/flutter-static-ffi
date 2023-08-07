@@ -1,16 +1,5 @@
-# static_ffi
+Illustrates how to call into a C static library on Windows with `DynamicLibrary.executable()`.
 
-A new Flutter project.
+See `ec12d3a4300c19cc79ef825549747d0135ea0a67` for the required diff.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Test with `flutter run -d windows`, click the button, 42 is printed, value comes from a C static library.
